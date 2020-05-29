@@ -8,10 +8,13 @@ import UseContext from './UseContext/Context'
 import UseReducerCom from './UseReducerCom/UseReducerCom.js'
 // 其他的hooks的使用合集
 import OtherHooks from './OtherHooks'
-
+// 自定义的hooks
+import CustomHooks from "./CustomHooks";
 ReactDOM.render(
+  // 自定义的hooks
+  <CustomHooks></CustomHooks>,
   // 其他的hooks的使用合集
-  <OtherHooks></OtherHooks>,
+  // <OtherHooks></OtherHooks>,
   // useReducer的使用
   // <UseReducerCom></UseReducerCom>,
    // useContext的使用
